@@ -10,6 +10,38 @@ body {
     color: #fff;
 }
 
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
 .container p{
     font-size: 32px;
+}
+
+header {
+    background-color: rgb(138, 58, 213);
+    height: 60px;
+    line-height: 60px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul.flex {
+    gap: 15px;
+}
+
+.flex li {
+    list-style: none;
+    font-size: 18;
+}
+
+main {
+    padding-top: 40px;
 }
